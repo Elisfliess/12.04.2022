@@ -1,0 +1,37 @@
+.app{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 7fr 1fr;
+    grid-gap: 15px;
+}
+
+.header{
+    grid-area: header;
+    background-color:blueviolet;
+    color: white;
+}
+
+.aside{
+    grid-area: aside;
+    background-color:blueviolet;
+    color: white;
+
+}
+
+.main{
+    grid-area: main;
+    background-color:blueviolet;
+    color: white;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color:blueviolet;
+    color: white;
+
+}
